@@ -46,7 +46,7 @@ footer ul {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-rows: 270px 270px 270px; 
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -73,9 +73,19 @@ footer ul {
 h2 {
    font-size: 40px;
    letter-spacing: -2px;
-   font-weight: 700; 
+   font-weight: 700;
+   margin: none;
+   margin-bottom: none; 
 }
 p {
     font-size: 20px;
-    font-weight: ;
+    margin-top: 8px;
+    margin-bottom: none;
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px ;
+    }
+    
 }
