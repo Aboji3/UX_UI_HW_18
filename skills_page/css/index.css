@@ -32,7 +32,14 @@ li {
     padding: 8px;
     color: #331832;
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: #fff;
     width: 100%;
     box-shadow: 0px -10px 10px grey ;
@@ -40,18 +47,17 @@ footer {
 }
 footer ul {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
     padding: 1%;
 }
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 270px 270px 270px; 
-    margin-left: 200px;
-    margin-right: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+
 }
-#dataImg {
-    width: 40%;
+.wrapper img {
+    width: 70%;
 }
 .heroSection {
     margin: none;
@@ -75,10 +81,7 @@ h2 {
    letter-spacing: -2px;
    font-weight: 700;
    margin: 0px;
-   margin-bottom: 0px 
-   
-   
-   ; 
+   margin-bottom: 0px; 
 }
 p {
     font-size: 20px;
@@ -88,7 +91,10 @@ p {
 @media only screen and (max-width: 600px) {
     .wrapper {
       display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 270px 270px 270px 270px 270px 270px; 
+      grid-template-columns: 1fr ;
+      grid-template-rows: 500px 500px 500px;
+    }
+    .wrapper img {
+        width: 30%;
     }
   }
