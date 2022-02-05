@@ -74,8 +74,8 @@ h2 {
    font-size: 40px;
    letter-spacing: -2px;
    font-weight: 700;
-   margin: none;
-   margin-bottom: none; 
+   margin: 0px;
+   margin-bottom: 0px; 
 }
 p {
     font-size: 20px;
