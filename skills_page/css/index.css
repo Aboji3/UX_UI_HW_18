@@ -1,0 +1,81 @@
+body {
+    background-color: #FDF0D5 ;
+    font-family: "Caudex", sans-serif;
+    color: #331832;
+}
+.logo { 
+    padding: 1%;
+  }
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Caudex", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+#navLogo {
+    width: 35%;
+    margin: auto;
+}
+.navigation  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: auto;
+    box-shadow: 0px 10px 10px grey ;
+}
+ul {
+    padding: 8px;  
+}
+li {
+    padding: 8px;
+    color: #331832;
+}
+footer {
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px -10px 10px grey ;
+    margin-top: 20px;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#dataImg {
+    width: 40%;
+}
+.heroSection {
+    margin: none;
+    text-align: center;
+}
+.heroTitle {
+    font-size: 72px;
+    letter-spacing: -3px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+.heroSub {
+    font-size: 40px;
+    letter-spacing: -3px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+h2 {
+   font-size: 40px;
+   letter-spacing: -2px;
+   font-weight: 700; 
+}
+p {
+    font-size: 20px;
+    font-weight: ;
+}
