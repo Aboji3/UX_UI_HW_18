@@ -88,6 +88,9 @@ p {
     margin-top: 8px;
     margin-bottom: none;
 }
+#menuIcon {
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .wrapper {
@@ -97,5 +100,12 @@ p {
     }
     .wrapper img {
         width: 30%;
+    }
+    .navList {
+        display: none;
+    }
+    #menuIcon {
+        display: flex;
+        justify-content: center;
     }
   }
